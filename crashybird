@@ -36,15 +36,21 @@ basic.forever(() => {
     }
     ticks += 1
     if (ticks < 21) {
-        basic.pause(1300)
+        basic.pause(1500)
     }
-    if (ticks > 20 && ticks < 51) {
+    if (ticks > 20 && ticks < 41) {
         basic.pause(1000)
     }
-    if (ticks > 50 && ticks < 101) {
-        basic.pause(900)
-    }
-    if (ticks > 100) {
+    if (ticks > 40 && ticks < 81) {
         basic.pause(800)
+    }
+    if (ticks > 80 && ticks < 121) {
+        basic.pause(600)
+    }
+    if (ticks > 120 && ticks < 161) {
+        basic.pause(500)
+    }
+    if (ticks > 160) {
+        basic.pause(300)
     }
 })
